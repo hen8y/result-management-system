@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Checker</title>
+    <style>
+   
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <script language="javascript">
+        function validate()
+          {
+         if (form.Pin.value == "" )
+                 {
+                    alert("Your Card No is required.");
+                    form.track.focus( );
+                    return false;
+                }
+            }
+            
+        </script>
+</head>
+<body style="background: url(img/bg.jpg);">
+   <div class="form"> <form action="result/result.php" method="post">
+        <div class="cont">     <div style="margin-top:0px">  <br /> 
+		  <center>
+		  		<img src="img/logo.png" style="height:55px;">
+			</center>
+                  <br />
+                 
+                   <label>CLASS</label>
+                    <select name="Class" id="lang">
+                      <option value="select"></option>
+                      <option value="jss1">JSS 1</option>
+                      <option value="jss2">JSS 2</option>
+                      <option value="jss3">JSS 3</option>
+                      <option value="sss1">SSS 1</option>
+                      <option value="sss2">SSS 2</option>
+                      <option value="sss3">SSS 3</option>
+                    </select> <br /> 
+						  <label>TERM</label>
+                    <select name="Term" id="lang">
+                      <option value="select"></option>
+                      <option value="1st">1ST TERM</option>
+                      <option value="2nd">2ND TERM</option>
+                      <option value="3rd">3RD TERM</option>
+                    </select><br />
+						  <label>YEAR</label>
+                     <select name="Year" id="lang">
+                      <option value="select"></option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                    </select> <br /> 
+						  <label>Card Number</label>
+                    <input name="Pin" placeholder="" type="text" ><p>
+                           
+       <h3 style="margin-left:5%;"> Make  Sure Your Details Are All Correct</h3>
+       <br /> 
+       <button type="submit" class="btn">Check Result</button></div></div><br>
+      </form>
+	</div>	
+</body>
+</html>
