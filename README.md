@@ -1,13 +1,10 @@
 # Result-management-system
 
-admin | 123 | Password for admin 
-First-year students only; roll number 1011
-Second-year students only; roll number: 2021
+
 
 ## Languages Used
 Front end: JavaScript, CSS, and HTML 
 Back end: MySQL and PHP 
-The server's admin features are XAMPP.
 
 ## Features
 - Admin Dashboard 
@@ -19,5 +16,5 @@ The server's admin features are XAMPP.
 
 
 ## Student Qualities
-- Using a valid rollid, students can search their results. 
-- The output is available to students in PDF format.
+- Using a valid cardID, students can search their results. 
+- The output is available to students in a printable format.
