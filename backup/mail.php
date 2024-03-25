@@ -23,11 +23,11 @@ try {
     $mail->Host       = 'mail.hrmsystems.com.ng';   
     $mail->SMTPAuth   = true;                          
     $mail->Username   = 'info@hrmsystems.com.ng';         
-    $mail->Password   = 'emenike134';                      
+    $mail->Password   = 'xxx';                      
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;        
     $mail->Port       = 465; 
     $mail->setFrom($email,$name);
-    $mail->addAddress('henrydevelopment2@gmail.com'); 
+    $mail->addAddress('henry@gmail.com'); 
     $mail->addAttachment ($file);
   
     $mail->isHTML(true);                                 
