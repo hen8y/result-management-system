@@ -3,7 +3,7 @@
 $moore= $_POST['Year'];
 
 
-$con=mysqli_connect("localhost","hrmsyste_henry","Moorer123@","hrmsyste_henrycollege_$moore");
+$con=mysqli_connect("localhost","hrmsyste_henry","oorer123@","hrmsyste_henrycollege_$moore");
 // Check connection
 if (mysqli_connect_errno())
 {
